@@ -1,0 +1,87 @@
+/*body*/
+body{
+    background-color: lawngreen;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+/*MagicN*/
+#MagicN{
+    padding: 20px;
+    background-color: black;
+    width: 90%;
+    max-height: 200px;
+    border-radius: 30px;
+}
+
+/*BTN*/
+#btn{
+    display:flex;
+    justify-content: space-around;
+}
+
+/*input-nm*/
+#input-nm{
+    background-color: white;
+    border: 5px solid lawngreen;
+    border-radius: 2px;
+    font-size: medium;
+    padding: 10px;
+    width: 130px;
+    font-size: 15px;
+}
+
+::placeholder{
+    color: black;
+}
+
+/*btn-guess*/
+#btn-guess{
+    background-color: whitesmoke;
+    border: 5px solid lawngreen;
+    border-radius: 2px;
+    font-size: medium;
+    padding: 10px;
+    width: 175px;
+    font-size: 15px;
+}
+
+/*btn-reset*/
+#btn-reset{
+    background-color: whitesmoke;
+    border: 5px solid lawngreen;
+    border-radius: 2px;
+    font-size: medium;
+    padding: 10px;
+    width: 175px;
+    font-size: 15px;
+}
+
+/*counter*/
+#counter{
+    margin-top:20px;
+    font-size: 25px;
+}
+
+/*high, low, congrats*/
+#low, #high, #congrats {
+    display: none;
+    font-size: 50px;
+    margin: 20px;
+}
+
+#congrats {
+    font-weight: bold;
+}
+
+/*h1*/
+h1 {
+    color: black;
+}
